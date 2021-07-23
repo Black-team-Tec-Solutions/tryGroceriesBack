@@ -22,7 +22,7 @@ const app = express();
 
 app.use(
         cors({
-            origin:["http://localhost:3000","https://www.paginaDeploy.com"],
+            origin:["http://localhost:3000","https://tryadgroceries.herokuapp.com/"],
             credentials:true,
         })
     );
